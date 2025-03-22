@@ -1,4 +1,5 @@
-# Langchain RAG Application, deployed to AWS using asynchronous Lambda worker function to handle background AI/RAG processing.
+# Langchain RAG Application
+# Deployed to AWS using asynchronous Lambda worker function to handle background AI/RAG processing.
 
 ## Getting Started
 
