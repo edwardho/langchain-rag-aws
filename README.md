@@ -1,9 +1,9 @@
 # Langchain RAG Application
-# Deployed to AWS using asynchronous Lambda worker function to handle background AI/RAG processing.
+# Deployed to AWS using asynchronous Lambda worker function to handle background AI/RAG processing
 
 ## Getting Started
 
-### AWSRequirements
+### AWS Requirements
 
 - AWS account
 - AWS CLI set up
@@ -32,7 +32,7 @@ pip install -r image/requirements.txt
 
 ### Building the Chroma Vector DB
 
-Put all the PDF source files you want into `image/src/data/source/`. Then go `image` and run:
+I'm currently using the Pokemon TCG rulebook PDF as a data source. If you would like to use a different data source, you can put the PDF source files you want into `image/src/data/source/`. Then go `image` and run:
 
 ```sh
 # Use "--reset" if you want to overwrite an existing DB.
